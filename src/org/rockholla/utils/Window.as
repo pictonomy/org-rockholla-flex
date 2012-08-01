@@ -37,7 +37,7 @@ package org.rockholla.utils
 				KeyboardEvent.KEY_DOWN, 
 				function(event:KeyboardEvent):void
 				{
-					if((event.ctrlKey || event.controlKey) && event.keyCode == 70)
+					if(event.ctrlKey && event.keyCode == 70)
 					{
 						Window.toggleFullScreen();
 					}
