@@ -146,6 +146,23 @@ package org.rockholla.controls.panzoom
 			
 		}
 		
+		public function set componentWidth( value: Number ):void{
+			super.width = value;
+		}
+		
+		public function get componentWidth():Number {
+			return super.width;
+		}
+		
+		public function set componentHeight( value: Number ):void{
+			super.height = value;			
+		}
+		
+		public function get componentHeight():Number {
+			return super.height;
+		}
+		
+		
 		/**
 		 * Executed when the width is set/updated
 		 * 
